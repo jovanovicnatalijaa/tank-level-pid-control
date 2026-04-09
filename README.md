@@ -27,7 +27,7 @@ A Parallel PID Controller was implemented with:
 - **Zero Steady-State Error**: Integral eliminates offset  
 - **Robustness**: 1Hz sinusoidal disturbance attenuated  
 
-![Simulation Results](images/Results Scope.png)
+![Simulation Results](images/Results_Scope.png)
 
 ## How to Use
 2. Open `TankLevelControl.slx` in MATLAB.

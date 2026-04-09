@@ -2,7 +2,7 @@
 PID control simulation of a nonlinear water tank system with disturbance rejection in Simulink.
 
 
-# PID Control of a Nonlinear Tank Level System
+## PID Control of a Nonlinear Tank Level System
 
 ## Project Overview
 This project presents the design and simulation of a PID controller used to regulate the liquid level in a tank system. The simulation is built in MATLAB/Simulink and accounts for realistic physical constraints, including nonlinear discharge dynamics and external disturbances.  

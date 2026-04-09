@@ -12,9 +12,9 @@ The system is modeled based on Torricelli's Law:
 $$Q_{out} = k \cdot \sqrt{h} + d(t)$$
 
 Where:  
-- \(h\) : Liquid level (m)  
-- \(k\) : Discharge coefficient  
-- \(d(t)\) : Time-varying disturbance (sine wave to simulate ripples)
+- h: Liquid level (m)  
+- k: Discharge coefficient  
+- d(t): Time-varying disturbance (sine wave to simulate ripples)
 
 ## Control Strategy
 A Parallel PID Controller was implemented with:  

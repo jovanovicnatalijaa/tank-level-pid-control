@@ -18,14 +18,14 @@ Where:
 
 ## Control Strategy
 A Parallel PID Controller was implemented with:  
-- **Actuator Saturation**: Limits Q_{in} to pump capacity  
-- **Anti-Windup**: Prevents integral buildup during saturation  
-- **Disturbance Rejection**: Suppresses effects of d(t) 
+- Actuator Saturation: Limits Q_{in} to pump capacity  
+- Anti-Windup: Prevents integral buildup during saturation  
+- Disturbance Rejection: Suppresses effects of d(t) 
 
 ## Simulation Results
-- **Fast Rise Time**: Target level reached <1s  
-- **Zero Steady-State Error**: Integral eliminates offset  
-- **Robustness**: 1Hz sinusoidal disturbance attenuated  
+- Fast Rise Time: Target level reached <1s  
+- Zero Steady-State Error: Integral eliminates offset  
+- Robustness: 1Hz sinusoidal disturbance attenuated  
 
 ![Simulation Results](images/Results_Scope.png)
 
